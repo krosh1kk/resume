@@ -134,6 +134,29 @@ a:hover {
     }
 }
 
+.form h4 {
+    text-align: center;
+}
+
+.form-group label { 
+    display: block; 
+    font-size: 14px; 
+    color: rgb(75, 75, 75); 
+    } 
+     
+    .form-group input, 
+    .form-group textarea { 
+        width: 100%; 
+        box-sizing: border-box; 
+        border: none; 
+        background:transparent; 
+        border-bottom: 1px solid rgb(71, 69, 69); 
+        color: rgb(71, 69, 69); 
+        padding: 15px 0 10px; 
+        outline: none; 
+        font-family: inherit; 
+    }
+
 
 
 /* .navbar ul li:hover {
