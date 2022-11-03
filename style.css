@@ -1,0 +1,141 @@
+h3 {
+    color: black;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 18px;        
+    font-weight: normal;
+    line-height: 20px;
+    background-color: rgb(219, 204, 189);
+
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.card {
+    border: 2px solid rgb(75, 65, 51);
+    border-radius: 10px;
+    background: rgb(212, 191, 191);
+    display: inline-block;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+
+}
+
+.list {
+    margin: 0;
+}
+
+.list li {
+    margin-bottom: 5px;
+
+}
+
+
+
+.card h2 {
+    margin-bottom: 10px;
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(141, 86, 20);
+    
+}
+
+.info {
+    margin-bottom: 30px;
+}
+
+
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #575d68;
+    margin: 0;
+    font-weight: 550;
+}
+
+.btn {
+    background: rgb(213, 203, 181);
+    padding: 6px 20px;
+    color: #111;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: rgb(117, 87, 32);
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: left;
+    padding-bottom: 7px;
+}
+
+.navbar {
+    /* background: rgb(227, 203, 193); */
+    /* padding: 10px 20px; */
+    margin-bottom: 10px;
+    width: 100em;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+    
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+   
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 500px) {
+    .container{
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+
+/* .navbar ul li:hover {
+    background: #ea6767;
+} */

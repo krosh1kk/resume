@@ -7,85 +7,123 @@
     <meta name="keywords" content="resume, cv, denis">
     <meta name="description" content="Это сайт - резюме Уграк Дениса">
     <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <img src="https://sun9-33.userapi.com/impg/PWlFlC83aUzJbXRBDO_l0tr_-S0YjClDt20W1Q/qL2HSbQOcB4.jpg?size=1620x2160&quality=95&sign=df9180e716c8c55a3475083b4a6063ac&type=album" alt="Это мой портрет" width="200">
-    
-    <h1>Уграк Денис</h1>
+     
 
-    <p><strong>Я обычный человек, учусь в школе, занимаюсь спортом.</strong></p>
-    <p> <em> Я люблю путешествовать, заниматься спортом и программировать.</em></p>
+    <div class="container">
 
+       
+        <img src="https://sun9-33.userapi.com/impg/PWlFlC83aUzJbXRBDO_l0tr_-S0YjClDt20W1Q/qL2HSbQOcB4.jpg?size=1620x2160&quality=95&sign=df9180e716c8c55a3475083b4a6063ac&type=album" alt="Это мой портрет" class="avatar">
+        
+        <h1>Уграк Денис</h1>
+
+
+        <div class="info-text">
+        <p>Я обычный человек, учусь в школе, в 7 классе, занимаюсь спортом.</p>
+        <p> <em> Я люблю путешествовать, заниматься спортом и программировать.</em></p>
+        </div>
+        
+        <br>
+
+        <div class="card">
+        <h3>Мои хобби:</h3>
+        <ol class="list"> 
+
+            <li>Путешествие</li>
+            <li>Програмирование</li>
+            <li>Спорт</li>
+            <li>Заниматься английским языком</li>
+        </ol>
+        </div>
+
+        
+        <br>
+        <div class="card">
+        <table class="table">
+            <thead>
+            <tr>
+                <td><strong>Название</strong></td>
+                <td><strong>Должность</strong></td>
+                <td><strong>Год</strong></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Начальная школа</td>
+                <td>Ученик</td>
+                <td>2016 - 2020</td>
+            <tr>    
+            
+                <tr>
+                    <td>Средняя школа</td>
+                    <td>Ученик</td>
+                    <td>2020-2022</td>
+                </tr>
+                
+                <tr>
+                    <td>Старшая школа</td>
+                    <td>Ученик</td>
+                    <td>2022</td>
+                </tr>
+
+            
+            </tbody>
+            
+        </table>
+    </div>
+    <br>
+<!-- 
+    <h3>Мои социальные сети:</h3>
+        <div class="info">
     <a href="https://vk.com/denqq01" target="_blank">VK</a>
     |
     <a href="https://t.me/dennnnnnnn0" target="_blank">Telegram</a>
+    |
+    <a href="https://www.youtube.com">Youtube</a>
+        </div> -->
+        <h2>Связаться со мной:</h2>
 
-    <h3>Мои хобби:</h3>
-    <ol> 
-
-        <li>Путешествие</li>
-        <li>Програмирование</li>
-        <li>Спорт</li>
-        <li>Заниматься английским языком</li>
-
-    </ol>
-
-    <table>
-        <thead>
-        <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Нет</td>
-            <td>Нет</td>
-            <td>Нет</td>
-        <tr>
-        
-            <tr>
-                <td>Нет</td>
-                <td>Нет</td>
-                <td>Нет</td>
-            </tr>
-            
-            <tr>
-                <td>Нет</td>
-                <td>Нет</td>
-                <td>Нет</td>
-            </tr>
-
-            <tr>
-                <td>Нет</td>
-                <td>Нет</td>
-                <td>Нет</td>
-            </tr>
-        </tbody>
-        
-    </table>
-
-    <h2>Связаться со мной:</h2>
-
-    <div>
-        <label for="name">Ваше имя:</label>
-        <input type="name" id="name" placeholder="Введите свое имя" > 
-        </div>
-        
         <div>
-            <label for="email">Ваш Email:</label>
-            <input type="email" id="email" placeholder="Введите ваш email">
+            <label for="name">Ваше имя:</label>
+            <input type="name" id="name" placeholder="Введите свое имя" > 
             </div>
-
+            
             <div>
-                <label for="message">Ваше сообщение:</label>
-                <br>
-                <textarea id="message" cols="30" rows="6" placeholder="Введите сообщение..." ></textarea>
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" placeholder="Введите ваш email">
+                </div>
+
+                <div>
+                    <label for="message">Ваше сообщение:</label>
+                    <br>
+                    <textarea id="message" cols="30" rows="6" placeholder="Введите сообщение..." ></textarea>
+                </div>
+
+                <button class="btn">Отправить!</button>
+
+              <br>
+              <br>
+              <br>
+            <h2>Мои социальные сети:</h2>
+
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="https://vk.com/denqq01" target="_blank">VK </a></li>
+                        <li><a href="https://t.me/dennnnnnnn0" target="_blank">Telegram</a></li>
+                        <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+                        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                        <li><a href="https://steamcommunity.com/profiles/76561198053041360/" target="_blank">Steam</a></li>
+                    </ul>
+                  </nav>
+                  
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+            
             </div>
-
-            <button>Отправить!</button>
-
-</body>
+    </body>
 </html>
